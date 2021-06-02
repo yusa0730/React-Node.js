@@ -1,11 +1,11 @@
-import 'core-js/stable'
+import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
 const rootEl = document.getElementById('root');
 
 ReactDOM.render(
-  <h1>Hello react.</h1>,
+  <h1>Hello world.</h1>,
   rootEl,
 );
