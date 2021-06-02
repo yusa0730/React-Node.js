@@ -7,6 +7,9 @@ module.exports = (api) => {
       {
         targets: {
           chrome: '79',
+          ie: '11',
+          firefox: '72',
+          safari: '13',
         },
         useBuiltIns: 'entry',
         corejs: 3,
@@ -21,6 +24,7 @@ module.exports = (api) => {
   ];
 
   const plugins = [];
+
   return {
     presets,
     plugins,
